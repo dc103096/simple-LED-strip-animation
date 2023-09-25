@@ -15,7 +15,9 @@ void setup()
   FastLED.setBrightness(50); // 設置亮度，根據需要調整
 }
 
-int beginHue = 0;
+static uint8_t beginHue = 0;
+
+int deltaHue = 1; //控制流速
 
 void loop()
 {
