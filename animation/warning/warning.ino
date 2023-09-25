@@ -15,22 +15,25 @@ void setup()
   FastLED.setBrightness(50); // 設置亮度，根據需要調整
 }
 
+int set = NUM_LEDS / 2;
+
 void loop()
 {
+
   for(int i=0;i<=5;i++) {
-    fill_solid(leds, 143, CRGB::Red);
+    fill_solid(leds, set, CRGB::Red);
     FastLED.show();
     delay(15);
-    fill_solid(leds, 143, CRGB::Black);
+    fill_solid(leds, set, CRGB::Black);
     FastLED.show();
     delay(15);
   }
 
   for(int i=0;i<=5;i++) {
-    fill_solid(leds+143, 144, CRGB::Blue);
+    fill_solid(leds+set, set+1, CRGB::Blue);
     FastLED.show();
     delay(15);
-    fill_solid(leds+143, 144, CRGB::Black);
+    fill_solid(leds+set, set+1, CRGB::Black);
     FastLED.show();
     delay(15);
   }
