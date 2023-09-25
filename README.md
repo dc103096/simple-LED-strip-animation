@@ -1,9 +1,9 @@
 # 簡易燈帶特效
 
-## 🚀 Introduction
+## 🚀 介紹
 這是一個基於支援 WS281X RGB LED 系列的特效庫所設計的簡易特效，利用 ESP32S 微控制器和 FastLED 庫實現。該特效庫允許你創建簡潔、多彩的 LED 燈光效果，適用於多種應用，包括裝飾、藝術展示、建築照明等。
 
-## 🌟 Features
+## 🌟 效果
 
 - 彩虹燈：顯示彩虹色，您也可以選擇流動速度。
 
@@ -23,9 +23,9 @@
 
 - (待更新)
 
-## 📥 Installation from source
+## 📥 安裝
 
-###### Clone the repository
+###### 克隆儲存庫
 
 1. 克隆儲存庫
 ```sh
@@ -45,10 +45,10 @@ git clone https://github.com/dc103096/simple-LED-strip-animation.git
 - Arduino IDE
 - FastLED 3.6.0
 
-## 🤖 Technologies Used
+## 🤖 使用的技術
 
 使用 FastLED 代碼庫，用於控制LED。
 
-## 💡 Feedback
+## 💡 回饋
 
 如果您有任何反饋或問題，請隨時提出問題。
